@@ -1,0 +1,33 @@
+{
+    "name": "projet design final",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "arc2midi": "github:musiciancoder2762/arc2midi#9225f8aeeffcdf5a3c57740a84fe398f76b63d73",
+        "ArcadeMIDI": "github:UnsignedArduino/ArcadeMIDI#af121437d59fd6b2cec54501ac437db1eaa766f5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.63",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
