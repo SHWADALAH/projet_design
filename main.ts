@@ -2260,6 +2260,9 @@ story.startCutscene(function () {
     story.printDialog("ma chambre", 80, 70, 50, 150)
 })
 music.setVolume(20)
+game.onUpdate(function () {
+	
+})
 forever(function () {
     if (mySprite.tileKindAt(TileDirection.Center, assets.tile`myTile170`)) {
         vélo = 0
