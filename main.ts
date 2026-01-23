@@ -121,7 +121,7 @@ controller.combos.attachCombo("uuddlrlrba", function () {
         bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccffffffccccccccfffffffffffffffffffffffffffffffffffffffffcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.
         bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccffffffccccccccfffffffffffffffffffffffffffffffffffffffffcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.
         `, SpriteKind.Player)
-    mySprite7.setPosition(80, 60)
+    mySprite7.setPosition(mySprite.x, mySprite.y)
     music.setVolume(0)
     player2 = ArcadeMIDIBlocks.create_wrapper()
     player2.set_images([img`
@@ -5929,7 +5929,7 @@ forever(function () {
     }
 })
 forever(function () {
-    if (mySprite.tileKindAt(TileDirection.Center, assets.tile`myTile215`)) {
+    if (mySprite.tileKindAt(TileDirection.Center, assets.tile`zzzzz`)) {
         mySprite.sayText("appuyer sur [B] pour intéragir", 30, false)
         if (controller.B.isPressed()) {
             cacher = 1
@@ -6149,7 +6149,7 @@ forever(function () {
                         ................................................................................................................................................................
                         ................................................................................................................................................................
                         `)
-                    tiles.placeOnRandomTile(mySprite, assets.tile`myTile215`)
+                    tiles.placeOnRandomTile(mySprite, assets.tile`zzzzz`)
                     dts += -1
                 }
             }
